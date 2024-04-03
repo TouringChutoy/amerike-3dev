@@ -87,6 +87,6 @@ Mi nobre es Fabián Antonio Leos y tengo 23 años. Trabajo en una empresa de des
 - [cdmx2588@amerike.edu.mx](cdmx2588@amerike.edu.mx)
 - [AntonioLeos](https://github.com/TonyZierold)
 
-![Antonio Leos](./img/AntonioLeos.jpg)
+![Fabian Antonio Leos](./img/AntonioLeos.jpg)
 
 ---
