@@ -4,6 +4,11 @@
 */
 
 html {
-  background-color: #ccc;
-  color: navy;
+  /* background-color: #ccc;
+  color: navy; */
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
 }
