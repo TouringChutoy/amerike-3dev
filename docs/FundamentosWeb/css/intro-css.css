@@ -7,8 +7,168 @@ html {
   /* background-color: #ccc;
   color: navy; */
   scroll-behavior: smooth;
+  /* 1 rem es igual al tamaño de letra de la etiqueta root, root es html */
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
-img {
+body {
+  color: #00f;
+}
+
+a {
+  color: orangered;
+  transition: all 0.5s ease-out;
+}
+
+a:hover {
+  color: navy;
+}
+
+img,
+video {
   max-width: 100%;
+}
+
+p {
+  color: black;
+}
+
+#menu {
+  color: springgreen;
+  background-color: teal;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.bg-pink {
+  background-color: pink;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+.bg-olive {
+  background-color: olive;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-green {
+  color: green;
+}
+
+.text-chocolate {
+  color: chocolate;
+}
+
+.text-red {
+  color: red;
+}
+
+.rounded {
+  border-radius: 100%;
+}
+
+.sepia {
+  filter: sepia(1);
+}
+
+.gray-scale {
+  filter: grayscale(1);
+}
+
+#baby-html {
+  border-radius: 1rem; /* root em */
+  border: 3px solid red;
+  transition: all 3s ease-out;
+}
+
+#baby-html:hover {
+  border-radius: 5rem;
+  border: 5px solid green;
+  filter: blur(0.5rem);
+  transform: rotate(360deg) scale(2) translate(200px, 100px);
+  transform: translate(200px, 100px);
+}
+
+/* selector descendiente aplica los estilos al segundo elemento que forma parte de la descendencia del primero */
+#estaciones li {
+  color: aquamarine;
+}
+
+#estaciones li:first-child {
+  color: blueviolet;
+}
+
+#estaciones li:last-child {
+  color: blue;
+}
+
+#estaciones li:nth-child(2) {
+  color: rosybrown;
+}
+
+#estaciones li {
+  transition: all 1.5s ease;
+}
+
+#estaciones li:hover {
+  font-size: 2rem;
+}
+
+.raleway-400 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.raleway-700 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.box {
+  border: 3px solid black;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-none {
+  display: none;
 }

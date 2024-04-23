@@ -9,7 +9,21 @@
       content="En este documento aprenderemos los fundamentos del desarrollo web"
     />
     <link rel="icon" href="img/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/intro-css.css" />
+    <style>
+      h1 {
+        color: #ff0000;
+        color: #00ff00;
+        color: #0000ff;
+        color: #ff0;
+      }
+    </style>
   </head>
   <body>
     <!-- 
@@ -17,7 +31,9 @@
       en HTML
     -->
     <header>
-      <h1 id="inicio">Introducción a <i>HTML</i></h1>
+      <h1 id="inicio" style="color: #f00; background-color: black">
+        Introducción a <i>HTML</i>
+      </h1>
       <p>Hola mundo desde HTML</p>
       <p>
         En este documento iremos revisando todas las etiquetas HTML más
@@ -30,7 +46,7 @@
         iure.
       </p>
     </header>
-    <nav>
+    <nav id="menu">
       <ul>
         <li><a href="#encabezados">Encabezados</a></li>
         <li><a href="#etiquetas-texto">Etiquetas de Texto</a></li>
@@ -42,6 +58,7 @@
         <li><a href="#iframe">Iframe</a></li>
         <li><a href="#etiquetas-semanticas">Etiquetas Semánticas</a></li>
         <li><a href="#detalle">Detalle</a></li>
+        <li><a href="#css">Introducción a CSS</a></li>
         <li><a href=""></a></li>
       </ul>
     </nav>
@@ -339,6 +356,67 @@
           </p>
         </div>
       </details>
+      <a href="#inicio">Regresar al Inicio ☝🏻</a>
+    </section>
+    <hr />
+    <section>
+      <h2 id="css">Introducción a CSS</h2>
+      <p class="fs-20 text-chocolate bg-pink text-right">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non voluptatem
+        accusamus minima facilis repellat fugit ex vitae, a ab id adipisci omnis
+        velit vel quo ut? Explicabo quidem facilis sed!
+      </p>
+      <p class="text-red bg-orange fs-12 text-center">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam fugit
+        sequi hic, iste id numquam, deleniti voluptatum assumenda excepturi
+        accusamus nostrum tempora eaque illo rerum earum illum alias repellat
+        laborum.
+      </p>
+      <p class="text-left fs-16 bg-olive text-green">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed repellat,
+        blanditiis labore qui porro culpa modi aperiam illum quae corporis odio
+        vero quod earum quos saepe ipsum nam soluta? Mollitia!
+      </p>
+      <p class="bg-pink text-red text-center">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt totam
+        incidunt rem a, veritatis consequuntur cum quas assumenda excepturi ex
+        commodi fugiat odio facilis corporis nulla voluptatem quis molestias
+        ducimus?
+      </p>
+      <p class="fs-20 text-chocolate">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim provident
+        modi quis, aliquam dolores quod. Eos officiis, ullam est, quam sequi
+        quisquam deserunt facilis architecto officia, modi nisi ipsam ea.
+      </p>
+      <p class="text-right fs-12 text-red">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui atque
+        aperiam quod vel quae, ullam deserunt eum mollitia harum totam assumenda
+        doloremque, iste eaque suscipit inventore illo quos unde quasi.
+      </p>
+      <img
+        class="rounded sepia"
+        src="https://avatars.githubusercontent.com/u/11139429?v=4"
+        alt="jonmircha"
+      />
+      <img
+        class="rounded gray-scale"
+        src="img/this-is-fine.gif"
+        alt="This is fine"
+      />
+      <img id="baby-html" src="img/html-for-babies.jpg" alt="HTML for babies" />
+      <ul id="estaciones">
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+      </ul>
+      <h3>Modelo de Caja (Box Model)</h3>
+      <div class="box">Caja 1</div>
+      <div class="box">Caja 2</div>
+      <div class="box">Caja 3</div>
+      <div class="bg-pink d-inline">Caja de Bloque</div>
+      <span class="bg-pink d-block">Caja de Línea</span>
+      <span class="bg-pink d-none">Caja Oculta</span>
       <a href="#inicio">Regresar al Inicio ☝🏻</a>
     </section>
     <hr />
