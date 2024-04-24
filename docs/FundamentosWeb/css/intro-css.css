@@ -3,13 +3,19 @@
   en CSS
 */
 
+:root {
+  --primary-color: #f60;
+  --accent-color: #ffc;
+  --primary-font: "Raleway", sans-serif;
+}
+
 html {
   /* background-color: #ccc;
   color: navy; */
   scroll-behavior: smooth;
   /* 1 rem es igual al tamaño de letra de la etiqueta root, root es html */
   font-size: 16px;
-  font-family: "Raleway", sans-serif;
+  font-family: var(--primary-font);
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -17,6 +23,8 @@ html {
 
 body {
   color: #00f;
+  background-color: var(--accent-color);
+  color: var(--primary-color);
 }
 
 a {
