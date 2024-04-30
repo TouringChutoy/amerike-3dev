@@ -1,0 +1,7 @@
+.text-purple {
+  color: var(--bs-purple);
+}
+
+.bg-pink {
+  background-color: var(--bs-pink);
+}
